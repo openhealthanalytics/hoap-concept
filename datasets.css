@@ -1,0 +1,109 @@
+#categories {
+	position: relative;
+	width: 200px;
+	height: 100%;
+	border: none;
+	margin: none;
+	padding: 10px;
+}
+
+#items {
+	margin-left: 0px;
+	margin-top: 0px;
+	border: none;
+	background: #f9f4f4;
+	margin-right: 10px;
+	float: none;
+	position: relative;
+
+}
+
+.sidebar {
+	background: #898484;
+	border: none;
+}
+
+.dataset {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px #898484 solid;
+	float: left;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 2px 1px 1px #c9c4c4;
+}
+
+.dataset-icon {
+	float: left;
+	margin: 0px 5px 0px 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.dataset-label {
+	clear: both;
+	text-align: center;
+}
+
+.dataset-action {
+	font-size: 80%;
+	text-align: left;
+}
+
+.dataset-rating {
+	text-align: left;
+	font-size: 75%;
+}
+
+.item-footer {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.dataset-ratings {
+}
+
+.dataset-category {
+	width:185px;
+	border: 1px #898484 solid;
+	background: #f4f4f4;
+	padding: 5px;
+}
+
+.share {
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+
+.sharebutton {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-indent: -99999px;
+}
+
+.sharebutton:hover {
+	background-position: 0px 0px;
+}
+
+.notshared {
+	background: url('share/notshared.png') bottom;
+}
+
+.sharedin {
+	background: url('share/sharedin.png') bottom;
+}
+
+.sharedout {
+	background: url('share/sharedout.png') bottom;
+}
+
+.sharedwide {
+	background: url('share/sharedwide.png') bottom;
+}

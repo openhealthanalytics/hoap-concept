@@ -1,0 +1,73 @@
+#categories {
+	float: left;
+	width: 200px;
+	height: 100%;
+	border: none;
+	padding: 10px;
+}
+
+#items {
+	margin-left: 230px;
+	margin-top: 10px;
+	border: none;
+	background: #f9f4f4;
+	margin-right: 10px;
+	float: none;
+	position: relative;
+
+}
+
+.dataset {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px #898484 solid;
+	float: left;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 2px 1px 1px #c9c4c4;
+}
+
+.dataset-icon {
+	float: left;
+	margin: 0px 5px 0px 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.dataset-label {
+	clear: both;
+	text-align: center;
+}
+
+.dataset-action {
+	font-size: 80%;
+	text-align: left;
+}
+
+.dataset-rating {
+	text-align: left;
+	font-size: 80%;
+}
+
+.dataset-ratings {
+	position: absolute;
+	bottom: 5px;
+}
+
+.dataset-category {
+	width:185px;
+	border: 1px #898484 solid;
+	background: #f9f4f4;
+	padding: 5px;
+}
+
+#footer {
+	clear: both;
+	position: static;
+        text-align: center;
+        width: 100%;
+	padding-top: 100px;
+}
+

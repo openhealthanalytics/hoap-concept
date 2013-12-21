@@ -1,0 +1,25 @@
+{
+	"datasets" : [
+	{ "id":"a0", "name":"Physician Schedule Preferences",                 "category":"enterprise", "rate_t":4, "rate_r":3, "rate_u":5, "shared":1, "icon":"db",  "share":"notshared" } ,
+	{ "id":"b1", "name":"Nurse Staffing History",          "category":"enterprise", "rate_t":5, "rate_r":5, "rate_u":5, "shared":1, "icon":"db",  "share":"sharedin" } ,
+	{ "id":"c2", "name":"Chart Access Logs",                 "category":"public",     "rate_t":3, "rate_r":5, "rate_u":1, "shared":1, "icon":"web", "share":"sharedin" } ,
+	{ "id":"d3", "name":"Patient Account Transactions",                    "category":"personal",   "rate_t":2, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedout" } ,
+	{ "id":"e4", "name":"HL7 Stream",                      "category":"enterprise", "rate_t":1, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedwide" } ,
+	{ "id":"a1", "name":"OR Case History",                 "category":"enterprise", "rate_t":4, "rate_r":3, "rate_u":5, "shared":1, "icon":"db",  "share":"notshared" } ,
+	{ "id":"b2", "name":"Patient Account Detail",          "category":"enterprise", "rate_t":5, "rate_r":5, "rate_u":5, "shared":1, "icon":"db",  "share":"sharedin" } ,
+	{ "id":"c3", "name":"Weather History",                 "category":"public",     "rate_t":3, "rate_r":5, "rate_u":1, "shared":1, "icon":"web", "share":"sharedin" } ,
+	{ "id":"d4", "name":"PQRS Metrics",                    "category":"personal",   "rate_t":2, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedout" } ,
+	{ "id":"e5", "name":"MU Metrics",                      "category":"enterprise", "rate_t":1, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedwide" } ,
+	{ "id":"f6", "name":"CHF Pathway Drug Utilization",    "category":"personal",   "rate_t":4, "rate_r":4, "rate_u":4, "shared":1, "icon":"csv", "share":"sharedin" } ,
+	{ "id":"g7", "name":"CHF Pathway Provider Compliance", "category":"personal",   "rate_t":3, "rate_r":4, "rate_u":2, "shared":1, "icon":"csv", "share":"notshared" } ,
+	{ "id":"h8", "name":"Physician Comp mRVU",             "category":"personal",   "rate_t":1, "rate_r":5, "rate_u":4, "shared":1, "icon":"xls", "share":"sharedin" } ,
+	{ "id":"i9", "name":"VBP Metrics",                 "category":"enterprise", "rate_t":4, "rate_r":3, "rate_u":5, "shared":1, "icon":"db",  "share":"notshared" } ,
+	{ "id":"a2", "name":"HCAPS Respones - Raw",          "category":"enterprise", "rate_t":5, "rate_r":5, "rate_u":5, "shared":1, "icon":"db",  "share":"sharedin" } ,
+	{ "id":"b3", "name":"TRaffic Data",                 "category":"public",     "rate_t":3, "rate_r":5, "rate_u":1, "shared":1, "icon":"web", "share":"sharedin" } ,
+	{ "id":"c4", "name":"Master Provider List",                    "category":"personal",   "rate_t":2, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedout" } ,
+	{ "id":"d5", "name":"HAI Reviews",                      "category":"enterprise", "rate_t":1, "rate_r":5, "rate_u":5, "shared":1, "icon":"xls", "share":"sharedwide" } ,
+	{ "id":"e6", "name":"Blood Utilization",    "category":"personal",   "rate_t":4, "rate_r":4, "rate_u":4, "shared":1, "icon":"csv", "share":"sharedin" } ,
+	{ "id":"f7", "name":"Supply Costs", "category":"personal",   "rate_t":3, "rate_r":4, "rate_u":2, "shared":1, "icon":"csv", "share":"notshared" } ,
+	{ "id":"g8", "name":"CMS GEMS",             "category":"personal",   "rate_t":1, "rate_r":5, "rate_u":4, "shared":1, "icon":"xls", "share":"sharedin" } 
+	]
+}

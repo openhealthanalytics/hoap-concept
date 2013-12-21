@@ -1,0 +1,85 @@
+body {
+	color: #393434;
+	font-family: "Avenir", "Arial", "sans";
+}
+
+a         {text-decoration: none}
+a:link    {color: #393434;}
+a:visited {color: #393434;}
+a:active  {color: #393434;}
+a:hover   {color: #000000; text-decoration: underline;}
+
+
+#header {
+	vertical-align: middle;
+	text-align: center;
+	
+}
+
+#contact {
+	display: table-cell;
+	width: 200px;
+	height: 27px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 22px;
+}
+
+#mainbody {
+	position: relative;
+	width: 100%;
+	height: auto;
+	border: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+
+#loginbox {
+	width: 400px;
+	height: 400px;
+	border: none;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#login {
+	background: #f9f4f4;
+	width: 100px;
+	height: 30px;
+	border: 1px #898484 solid;
+	margin: auto;
+	text-align: center;
+}
+
+#register {
+	width: 100%;
+	text-align: left;
+	background: #fdf8f8;
+	font-size: 70%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-top: 30px;
+	color: #696464;
+	border: 1px #a9a4a4 solid;
+}
+
+#footer {
+	position: relative;
+	bottom: -20px;
+	text-align: center;
+	width: 100%;
+}
+
+.inputbox {
+	width: 250px;
+	font-size: 125%;
+	text-align: center;
+}
+
+.inputs {
+	font-size: 100%;
+	text-align: left;
+}
