@@ -21,89 +21,34 @@
 .sidebar {
 	background: #898484;
 	border: none;
+	font-color: white;
 }
 
-.dataset {
-	width: 200px;
-	height: 200px;
-	margin: 10px;
-	padding: 5px;
-	border: 1px #898484 solid;
+.ds {
+	width: 330px;
+	height: 240px;
+	margin: 0px;
+	padding: 10px;
+	border: none;
 	float: left;
 	text-align: center;
 	position: relative;
-	box-shadow: 2px 2px 1px 1px #c9c4c4;
 }
 
-.dataset-icon {
-	float: left;
-	margin: 0px 5px 0px 0px;
-	width: 100px;
-	height: 100px;
-}
-
-.dataset-label {
-	clear: both;
-	text-align: center;
-}
-
-.dataset-action {
-	font-size: 80%;
-	text-align: left;
-}
-
-.dataset-rating {
-	text-align: left;
-	font-size: 75%;
-}
-
-.item-footer {
-	position: absolute;
-	bottom: 5px;
-	width: 100%;
-	border-collapse: collapse;
-	border-spacing: 0px;
-}
-
-.dataset-ratings {
-}
-
-.dataset-category {
-	width:185px;
-	border: 1px #898484 solid;
-	background: #f4f4f4;
+.ds-preview {
+	width: 320px;
+	height: 160px;
+	margin: 0px;
 	padding: 5px;
+	border: 1px #898484 solid;
+	background: #fdfdfd;
 }
 
-.share {
-	width: 50px;
-	height: 50px;
+.ds-name {
+	width: 320px;
+	height: 40px;
+	margin: 0px;
+	padding: 6px;
 	border: none;
 }
 
-.sharebutton {
-	display: block;
-	width: 50px;
-	height: 50px;
-	text-indent: -99999px;
-}
-
-.sharebutton:hover {
-	background-position: 0px 0px;
-}
-
-.notshared {
-	background: url('share/notshared.png') bottom;
-}
-
-.sharedin {
-	background: url('share/sharedin.png') bottom;
-}
-
-.sharedout {
-	background: url('share/sharedout.png') bottom;
-}
-
-.sharedwide {
-	background: url('share/sharedwide.png') bottom;
-}
